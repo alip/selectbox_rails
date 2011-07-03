@@ -1,7 +1,7 @@
-= jQuery selectbox plugin
+# jQuery selectbox plugin
 For use with Rails 3.1 asset pipeline
 
-== Install
+## Install
 
 ```ruby
 gem 'jquery-rails'
@@ -9,6 +9,7 @@ gem 'selectbox_rails'
 ```
 
 Edit app/assets/javascripts/application.js and add
+
 ```javascript
 //= require jquery
 //= require selectbox
@@ -16,6 +17,7 @@ Edit app/assets/javascripts/application.js and add
 
 
 and in app/assets/stylesheets/application.css add
+
 ```css
 /*
 *= require_self
@@ -23,10 +25,12 @@ and in app/assets/stylesheets/application.css add
 */
 ```
 
-== Usage
+## Usage
+
+```javascript
 $('select').selectbox();
 
-=== Credits
+### Credits
 
 The jQuery code was written by Dimitar Ivanov
 
