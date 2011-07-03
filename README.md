@@ -3,10 +3,14 @@ For use with Rails 3.1 asset pipeline
 
 ## Install
 
+Add to your Gemfile
+
 ```ruby
 gem 'jquery-rails'
 gem 'selectbox_rails'
 ```
+
+bundle install
 
 Edit app/assets/javascripts/application.js and add
 
@@ -29,11 +33,12 @@ and in app/assets/stylesheets/application.css add
 
 ```javascript
 $('select').selectbox();
+```
 
 ### Credits
 
 The jQuery code was written by Dimitar Ivanov
 
 Project links
-http://code.google.com/p/select-box/
-http://www.bulgaria-web-developers.com/projects/javascript/selectbox/
+<http://code.google.com/p/select-box/>
+<http://www.bulgaria-web-developers.com/projects/javascript/selectbox/>
