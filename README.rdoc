@@ -3,25 +3,25 @@ For use with Rails 3.1 asset pipeline
 
 == Install
 
-<tt>
+=begin html
 gem 'jquery-rails'
 gem 'selectbox_rails'
-</tt>
+end
 
 Edit app/assets/javascripts/application.js and add
-<tt>
+=begin html
 //= require jquery
 //= require selectbox
-</tt>
+end
 
 
 and in app/assets/stylesheets/application.css add
-<tt>
+=begin html
 /*
 *= require_self
 *= require selectbox
 */
-</tt>
+end
 
 == Usage
 $('select').selectbox();
