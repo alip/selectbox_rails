@@ -35,10 +35,40 @@ and in app/assets/stylesheets/application.css add
 $('select').selectbox();
 ```
 
+```javascript
+$("#country_id").selectbox({
+  onOpen: function (inst) {
+    //console.log("open", inst);
+  },
+  onClose: function (inst) {
+    //console.log("close", inst);
+  },
+  onChange: function (val, inst) {
+    $.ajax({
+      type: "GET",
+      data: {country_id: val},
+      url: "ajax.php",
+      success: function (data) {
+        $("#boxCity").html(data);
+        $("#city_id").selectbox();
+      }
+    });
+  },
+  effect: "slide"
+});
+$(".nova").selectbox({
+  effect: "fade"
+});
+$("#vehicle_id").selectbox({
+  speed: 400
+});
+```
+
+Examples found <http://www.bulgaria-web-developers.com/projects/javascript/selectbox/>
+
 ### Credits
 
 The jQuery code was written by Dimitar Ivanov
 
-Project links
+Project links:
 <http://code.google.com/p/select-box/>
-<http://www.bulgaria-web-developers.com/projects/javascript/selectbox/>
