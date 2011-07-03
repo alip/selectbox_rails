@@ -32,10 +32,10 @@ and in app/assets/stylesheets/application.css add
 ## Usage
 
 ```javascript
+// default
 $('select').selectbox();
-```
 
-```javascript
+// with options
 $("#country_id").selectbox({
   onOpen: function (inst) {
     //console.log("open", inst);
@@ -56,9 +56,12 @@ $("#country_id").selectbox({
   },
   effect: "slide"
 });
+
+
 $(".nova").selectbox({
   effect: "fade"
 });
+
 $("#vehicle_id").selectbox({
   speed: 400
 });
