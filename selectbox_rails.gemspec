@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["bseanvt@gmail.com"]
   s.homepage    = "https://github.com/bseanvt/selectbox_rails"
   s.summary     = %q{jQuery selectbox plugin}
-  s.description = %q{Nicer looking select boxes with this plugin.}
+  s.description = %q{jQuery plugin for nicer looking select boxes for use with Rails 3.1 asset pipeline.}
 
   s.rubyforge_project = "selectbox_rails"
 
