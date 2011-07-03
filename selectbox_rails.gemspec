@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "selectbox_rails"
   s.version     = SelectboxRails::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["Sean Behan"]
+  s.email       = ["bseanvt@gmail.com"]
+  s.homepage    = "https://github.com/bseanvt/selectbox_rails"
+  s.summary     = %q{jQuery selectbox plugin}
+  s.description = %q{Nicer looking select boxes with this plugin.}
 
   s.rubyforge_project = "selectbox_rails"
 
