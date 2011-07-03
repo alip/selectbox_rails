@@ -1,15 +1,16 @@
-= jQuery selectbox Plugin
+= jQuery selectbox plugin
 For use with Rails 3.1 asset pipeline
 
 == Install
 
-gem 'jquery-rails'
-gem 'selectbox_rails'
+  gem 'jquery-rails'
+  gem 'selectbox_rails'
 
 
 Edit app/assets/javascripts/application.js and add
-//= require jquery
-//= require selectbox
+
+  //= require jquery
+  //= require selectbox
 
 
 and in app/assets/stylesheets/application.css add
