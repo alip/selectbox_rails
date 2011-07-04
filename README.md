@@ -20,7 +20,7 @@ Edit app/assets/javascripts/application.js and add
 ```
 
 
-and in app/assets/stylesheets/application.css add
+and if you want the default styles, in app/assets/stylesheets/application.css add
 
 ```css
 /*
