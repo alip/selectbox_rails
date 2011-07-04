@@ -29,6 +29,21 @@ and in app/assets/stylesheets/application.css add
 */
 ```
 
+You don't have to use the stylesheet provided by this plugin. Selectbox rewrites the
+select element as an unordered list that looks like something like this...
+
+```html
+<div class='sbHolder'>
+  <ul class='sbOptions'>
+    <li>
+      <a></a>
+    </li>
+  </ul>
+</div>
+```
+
+So it's very easy to style.
+
 ## Usage
 
 ```javascript
